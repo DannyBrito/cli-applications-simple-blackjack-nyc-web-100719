@@ -61,7 +61,7 @@ end
 
 def runner
   # code runner here
-  welcome
+  welcome()
   card_tot = initial_round
   while card_tot < 21 do
   card_tot = hit?(card_tot)
